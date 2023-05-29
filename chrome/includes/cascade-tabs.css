@@ -54,6 +54,15 @@
 
 
 
+* tabs counter */
+ tabs {
+   counter-reset: tab-counter;
+ }
+
+ .tab-label::before {
+   counter-increment: tab-counter;
+   content: counter(tab-counter) " - ";
+ }
 
 
 /* show favicon when media is playing but tab is hovered */
