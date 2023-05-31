@@ -54,7 +54,7 @@
 
 
 
-* tabs counter */
+/* tabs counter */
  tabs {
    counter-reset: tab-counter;
  }
